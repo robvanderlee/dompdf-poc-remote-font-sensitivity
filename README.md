@@ -17,4 +17,6 @@ I did a dirty dump on info to strengthen my case.
 2. Put `var_dump($localTempFile);` on `vendor/dompdf/dompdf/src/FontMetrics.php:L235`
    * This will confirm how the working version gets downloaded no problemo while the url with mixed lower-and-upper case will never get handled.
 
+Relevant issue and specific [comment](https://github.com/dompdf/dompdf/issues/3142#issuecomment-1655712609) made about this.
+
 
